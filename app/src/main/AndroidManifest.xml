@@ -19,6 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+
+        <provider
+            android:name="com.gerardozarate.tasktimer.AppProvider"
+            android:authorities="com.gerardozarate.tasktimer.provider"
+            android:exported="false"/>
+
+    </application>
 </manifest>

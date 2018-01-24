@@ -1,4 +1,3 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
-    <item name="no_task_message" type="dimen" format="float">No Task Selected.</item>
 </resources>
